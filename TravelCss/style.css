@@ -114,7 +114,7 @@ h1,h2,h3{
 
 .header{
     
-    height: 97vh;
+    height: 100vh;
     background-size:cover;
     background-image:linear-gradient(rgb(00, 00, 00,0.3),rgb(00, 00, 00,0.4)) ,url("../img/jezael-melgoza-2FiXtdnVhjQ-unsplash.jpg");
     background-position: center; 
@@ -168,7 +168,7 @@ h1,h2,h3{
     clear:both;
 }
 
-/* #######################header content styling  ############ */
+/* ####################### header content styling  ############ */
 
 .header-content{
     position: absolute;
@@ -197,7 +197,7 @@ h1,h2,h3{
 }
 
 .row{
-    height:34rem;
+    height:33rem;
     background: white;
     box-shadow: 0px 0px 20px 2px #aaa;
     
@@ -426,3 +426,34 @@ color: #f4f4f4;
 }
 
 
+/* ############################ contact page styling################## */
+
+.contact{
+    padding: 5rem 0;
+  
+    
+}
+
+.form-wrapper{
+ border: 5px solid red;
+
+}
+
+.company-address{
+ border: 2px solid rgb(0, 255, 30);
+ float: left;
+ width: 49%;
+
+}
+
+.form{
+    border: 2px solid rgb(0, 255, 30);
+    float: right;
+    width: 49%;
+}
+
+.form-wrapper::after{
+    content:'';
+    display: block;
+    clear:both;
+}
