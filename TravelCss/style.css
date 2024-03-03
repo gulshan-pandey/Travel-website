@@ -568,6 +568,16 @@ h3 {
         font-size: 50%;
     }
 
+    
+.header {
+
+    height: 100vh;
+    background-size: cover;
+    background-image: linear-gradient(rgb(00, 00, 00, 0.3), rgb(00, 00, 00, 0.4)), url("../img/jezael-melgoza-2FiXtdnVhjQ-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
     .navbar .nav-items,
     .navbar .logo {
         float: none;
@@ -629,5 +639,6 @@ h3 {
         width: 100%;
         height: auto;
     }
+
 
 }
